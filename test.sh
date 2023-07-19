@@ -5,10 +5,10 @@
 # Example for using User Defined Variables with JMeter
 # These will be substituted in JMX test script
 # See also: http://stackoverflow.com/questions/14317715/jmeter-changing-user-defined-variables-from-command-line
-#export TARGET_HOST="www.map5.nl"
-#export TARGET_PORT="80"
-#export TARGET_PATH="/kaarten.html"
-#export TARGET_KEYWORD="Kaartdiensten"
+export TARGET_HOST="www.google.com"
+export TARGET_PORT="80"
+export TARGET_PATH="/images"
+export TARGET_KEYWORD="Test"
 
 T_DIR=tests/sample
 
