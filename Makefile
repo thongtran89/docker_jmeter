@@ -1,9 +1,9 @@
 TARGET_HOST ?= "example.com"
 TARGET_PORT ?= "80"
 THREADS ?= "1"
-CONTAINER_NAME ?= "docker-jmeter"
+CONTAINER_NAME ?= "docker_jmeter"
 IMAGE = "justb4/jmeter:5.5"
-TEST ?= trivial
+TEST ?= sample
 JVM_ARGS ?= "-Xms1g -Xmx1g -XX:MaxMetaspaceSize=256m"
 TARGET_PATH ?= "/index.html"
 TARGET_KEYWORD ?= "domain"
